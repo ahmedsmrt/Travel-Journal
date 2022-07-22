@@ -2,11 +2,12 @@
 
 
 main {
-  min-width: 550px;
+  width: 550px;
   min-height: 759px;
   margin: 0 auto;
-  border: 1px solid white;
   font-family: 'Inter', sans-serif;
+  background: #FFFFFF;
+  padding: 50px 25px;
 }
 
 nav {
@@ -20,9 +21,32 @@ nav {
 
 .nav-wrap {
   display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
 .nav-wrap img {
   width: 24px;
   height: 24px;
+}
+
+.nav-wrap h3 {
+  font-size: 14.46px;
+  color: #FFFFFF;
+}
+
+
+article {
+  max-height: 168px;
+  min-width: 470px;
+  display: flex;
+}
+
+article img {
+  width: 125px;
+  border-radius: 5px;
+}
+
+.location {
+  display: flex;
 }
